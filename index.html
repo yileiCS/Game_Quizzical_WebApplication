@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quizzical - An educational number guessing game">
+  <title>Quizzical! GAME</title>
+  <link rel="stylesheet" href="/src/assets/style.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <h1>Quizzical!<span role="img" aria-label="thinking face emoji">🤔</span></h1>
+    </header>
+
+    <main>
+      <game-component v-if="!showQuiz" @game-completed="handleGameCompleted"></game-component>
+
+      <quiz-component v-if="showQuiz" :facts="scores" @exit-quiz="exitQuiz"></quiz-component>
+
+      <scoreboard-component v-if="!showQuiz" :scores="scores" @start-quiz="startQuiz"></scoreboard-component>
+    </main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
