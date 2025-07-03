@@ -1,17 +1,31 @@
 # Quizzical! Game
 This is a single-player web application that combines a letter-guessing game with mathematical facts. Players must guess letters to reveal a hidden fact about a number, and then guess both the complete fact and the number it describes.
+- Screenshots of Game Layout:<br>
+<img src="src/Screenshots/Layout.jpg" width="45%"><br>
+- Notification after Clicking the Letter Buttons:<br>
+<img src="src/Screenshots/Notification after Clicking the Letter Buttons.jpg" width="45%"><br>
+- Score Session Displayed with Phrase:<br>
+<img src="src/Screenshots/Score Session Displayed with Phrase.jpg" width="45%"><br>
+- Score Calculation and Restart Notification:<br>
+<img src="src/Screenshots/Score Calculation and Restart Notification.jpg" width="45%"><br>
+- Quiz Session:<br>
+<img src="src/Screenshots/Quiz Session.jpg" width="45%"><br>
+- Response to the Quiz:<br>
+<img src="src/Screenshots/Response to the Quiz.jpg" width="45%"><br>
+- Sortable Scoreboard and Game Records:<br>
+<img src="src/Screenshots/Sortable Scoreboard and Game Records.jpg" width="45%"><br>
+- Accessibility Evaluation through Extension WAVE:<br>
+<img src="src/Screenshots/Accessibility Evaluation through Extension WAVE.jpg" width="45%"><br>
 
-![Quizzical Game Screenshot](src/Screenshot.jpg)
 
-
-
+---
 ## Prerequisites
 Before running this project, make sure the following have been installed:
 - Node.js (v16.0.0 or higher)
 - npm (Node Package Manager, usually comes with Node.js)
 
 
-
+---
 ## Installation & Setup
 1. Clone this repository:
 ```sh
@@ -27,6 +41,7 @@ npm install
 ```
 
 
+---
 ## Running the Application
 1. Start the development server:
 ```sh
@@ -36,6 +51,7 @@ npm run dev
 
 
 
+---
 ## Building for Production
 To create a production build:
 ```sh
@@ -49,7 +65,7 @@ npm run preview
 ```
 
 
-
+---
 ## Game Instructions
 1. **Starting the Game**
    - The game starts with 26 points
@@ -74,7 +90,7 @@ npm run preview
    - Accessible design for visually impaired users
 
 
-
+---
 ## Technical Details
 - Built with Vue 3 Composition API
 - Uses Vite as build tool
@@ -86,7 +102,7 @@ npm run preview
 - Utility functions for game logic
 
 
-
+---
 ## Troubleshooting
 If you encounter any issues:
 1. Make sure all dependencies are installed:
