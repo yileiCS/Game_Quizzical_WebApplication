@@ -1,6 +1,8 @@
 # Quizzical! Game
 This is a single-player web application that combines a letter-guessing game with mathematical facts. Players must guess letters to reveal a hidden fact about a number, and then guess both the complete fact and the number it describes.
 
+![Quizzical Game Screenshot](src/Screenshot.jpg)
+
 
 
 ## Prerequisites
@@ -11,10 +13,13 @@ Before running this project, make sure the following have been installed:
 
 
 ## Installation & Setup
-1. Clone or download the project to your local machine
-2. Open a terminal and navigate to the project directory:
+1. Clone this repository:
 ```sh
-cd path/to/quizzical
+git clone https://github.com/yileiCS/Game_Quizzical_WebApplication.git
+```
+2. Navigate to the project directory:
+```sh
+cd Game_Quizzical_WebApplication
 ```
 3. Install the project dependencies:
 ```sh
